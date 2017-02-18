@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+
+from .models import CompanyApfytManager, Customer
+
+admin.site.register(CompanyApfytManager)
+admin.site.register(Customer)
+
